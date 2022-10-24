@@ -1,0 +1,24 @@
+body{
+	background-size: cover;
+    background-image: url("../1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.musicBtn{
+	position: absolute;
+	width: 420px;
+	height: 388px;
+	top: 25%; 
+	left: 35%;
+	/*动画效果 ：动画名称 执行时间 动画类型 无限循环*/
+	animation:xuanzhuan 2s 1;
+}
+
+/*实现动画效果*/
+@keyframes xuanzhuan{
+	0%{transform: rotate(0deg);}
+	25%{}
+	50{}
+	100%{transform: rotate(360deg);}
+}
